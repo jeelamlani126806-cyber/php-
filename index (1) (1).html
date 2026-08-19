@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>jQuery AJAX Practical</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Menu -->
+    <nav id="navbar">
+        <h2>My Website</h2>
+
+        <ul>
+            <li><a href="#" class="menu-link" data-section="home">Home</a></li>
+            <li><a href="#" class="menu-link" data-section="posts">Blog Posts</a></li>
+            <li><a href="#" class="menu-link" data-section="about">About</a></li>
+            <li><a href="#" class="menu-link" data-section="headers">Headers</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <section id="content">
+
+            <h1>jQuery AJAX Example</h1>
+
+            <p>
+                Welcome to my website. Click the menu items to load
+                content dynamically using jQuery AJAX.
+            </p>
+
+            <button id="redButton">
+                Make Elements Red
+            </button>
+
+        </section>
+
+
+        <!-- Red Color Demo -->
+        <section id="color-section">
+
+            <h2>Change Background Color</h2>
+
+            <p class="red-element">
+                This is paragraph 1.
+            </p>
+
+            <p class="red-element">
+                This is paragraph 2.
+            </p>
+
+            <h3 class="red-element">
+                This heading will also become red.
+            </h3>
+
+            <button class="red-element">
+                This button will become red.
+            </button>
+
+        </section>
+
+
+        <!-- Scroll Demo -->
+        <section class="long-section">
+
+            <h2>Scroll Down</h2>
+
+            <p>
+                This section creates enough content to demonstrate
+                the smooth scroll-to-top functionality.
+            </p>
+
+            <p>
+                jQuery can animate the page scrolling smoothly.
+            </p>
+
+            <p>
+                Keep scrolling to see the button.
+            </p>
+
+            <p>
+                AJAX allows content to be loaded without refreshing
+                the entire webpage.
+            </p>
+
+            <p>
+                This is another example paragraph.
+            </p>
+
+            <p>
+                This is another example paragraph.
+            </p>
+
+            <p>
+                This is another example paragraph.
+            </p>
+
+            <p>
+                This is another example paragraph.
+            </p>
+
+            <p>
+                This is another example paragraph.
+            </p>
+
+            <p>
+                This is another example paragraph.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- Scroll To Top Button -->
+    <button id="topButton">
+        ↑ Back to Top
+    </button>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>

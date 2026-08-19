@@ -1,0 +1,127 @@
+/* General page styling */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+
+/* Navigation */
+
+#navbar {
+    background-color: #222;
+    color: white;
+    padding: 15px 30px;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#navbar h2 {
+    display: inline-block;
+    margin: 0;
+}
+
+#navbar ul {
+    display: inline-block;
+    margin: 0 0 0 40px;
+    padding: 0;
+}
+
+#navbar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navbar a:hover {
+    color: yellow;
+}
+
+
+/* Main content */
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+
+/* Red elements */
+
+.red-element {
+    padding: 15px;
+    margin: 10px 0;
+}
+
+
+/* Long section */
+
+.long-section {
+    min-height: 1000px;
+}
+
+
+/* Buttons */
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* Scroll-to-top button */
+
+#topButton {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #28a745;
+    display: none;
+}
+
+
+/* AJAX loading message */
+
+#loading {
+    color: blue;
+    font-weight: bold;
+}
+
+
+/* Header information */
+
+.header-box {
+    background-color: #eeeeee;
+    padding: 15px;
+    margin-top: 15px;
+    border-left: 5px solid #007bff;
+}
