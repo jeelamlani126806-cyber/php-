@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ajax Load Text File</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+
+        $("#load").click(function(){
+
+            $("#content").load("data.txt");
+
+        });
+
+    });
+    </script>
+</head>
+
+<body>
+
+<h2>Load Text File using Ajax</h2>
+
+<button id="load">Load Text</button>
+
+<div id="content" style="margin-top:20px;border:1px solid black;padding:10px;">
+    Text will appear here...
+</div>
+
+</body>
+</html>
